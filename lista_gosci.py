@@ -1,7 +1,8 @@
 guest = []
-guest.append(input("Podaj imię gościa "))
-guest.append(input("Podaj imię następnego gościa "))
-guest.append(input("Podaj imię następnego gościa "))
+
+for x in range(5):
+    x=guest.append(input("Podaj imię osoby, którą chciałbyś zaprosić na przyjęcie : "))
+
 
 print(guest)
 
