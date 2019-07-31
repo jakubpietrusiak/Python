@@ -19,9 +19,3 @@ guest.remove(absent)
 for x in guest:
     print("Na przyjęcie przyjdzie "+x)
 
-#dopraszanie
-print("\n")
-print("No przecież zapomniałeś o najważniejszej osobie!!! Na pewno wiesz już o kogo chodzi :P ")
-#guest.insert(input())
-
-
