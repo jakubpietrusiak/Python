@@ -15,3 +15,18 @@ for wartosc in range(0,23):
 even_numbers = list(range(2,11,2))
 print(even_numbers)
 
+#sto
+sto = []
+
+for wartosc in range(1,101):
+    sto.append(wartosc)
+print(sto)
+
+#wyznaczenie najmniejszej wartosci
+print(min(sto))
+
+#wyznaczenie najwieszkej wartosci
+print(max(sto))
+
+#wyznaczenie sumy wszystkich liczb z listy
+print(sum(sto))
