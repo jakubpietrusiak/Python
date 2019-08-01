@@ -2,3 +2,11 @@
 Krotka (ang. tuple) jest niezmienną listą. Zawartość krotki określamy tylko
 podczas jej tworzenia. Potem nie możemy już jej zmienić.
 
+Deklaracja tupli
+tupla = ( )
+
+Deklaracja listy
+lista = [ ]
+
+Deklaracja słownika
+slownik = { 'imię' : 'Jakub' , 'nazwisko' : 'Pietrusiak' }
