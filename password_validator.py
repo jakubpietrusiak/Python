@@ -4,7 +4,8 @@
 #
 # A valid password is one that conforms to the following rules :
 # -Minimum lenght is 5;
-# -Maximum lenght is 10; Should cotain at least one number;
+# -Maximum lenght is 10; -
+# -Should cotain at least one number;
 # -Should contain at least one special character (such as !,@,#,$,%,^,&,*)
 # -Should not contain spaces.
 
