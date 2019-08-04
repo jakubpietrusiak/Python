@@ -28,7 +28,7 @@ while True :
     elif re.search(" ", password):
         flag = -1
         break
-    elif not re.search("['!','@','#','$','^','&','*','-','_','+','=','\',';',':','<','>','.','?']", password):
+    elif not re.search("['!','@','#','$','%','^','&','*']", password):
         flag = -1
         break
     else:
