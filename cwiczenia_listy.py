@@ -38,8 +38,8 @@ for guest_absent in guests_absent:
     print('Niestety '+ guest_absent + ' nie może przyjść.')
 print('Będzie trzeba usunąć ich z listy gości...\n')
 
-for guests in guests[2:6]:
-    guests.remove()
-print(guests)
+#usunięcie z listy
 
+del guests[0:6]
+print(guests)
 
