@@ -1,14 +1,6 @@
-import random
-b = []
+from class_login import *
 
-while len(b) < 6:
-    c = random.randint(1,49)
-
-    if c in b:
-        c = random.randint(1,49)
-    else:
-        b.append(c)
-
-    print(b)
-
+user1 = Login('kaziuki','przasnysz','')
+user1.describe_user()
+user1.input_password()
 
